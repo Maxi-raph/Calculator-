@@ -1,0 +1,111 @@
+body {
+    font-size: 15pt;
+    background-color: #4F58B7;
+    margin: 100px auto 0 auto;
+    padding: 0 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calc-box{
+    background-color: #FBFBFB;
+    width: 340px;
+    height: 450px;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 6px 8px #9C9C9D;
+}
+.display{
+    margin-top: 10px;
+    height: 70px;
+    padding-left: 20px;
+    border: none;
+    background-color:#E1E1E1;
+    border-radius: 5px;
+    font-size:40px;
+    box-shadow:inset 3px 6px 8px #A2A2A2;
+}
+.btns-box{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+.numbtn{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    padding: auto;
+    font-size:25px;
+}
+.clrbtn{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size:25px;
+}
+.delbtn{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size:23px;
+}
+.opns-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+.addbtn{
+ width: 55px;
+ height: 55px;
+ margin-bottom: 10px;
+ margin-right: 0px;
+ text-align: center;
+ font-size:20px;
+}
+.subbtn{
+ width: 55px;
+ height: 55px;
+ margin-bottom: 10px;
+ margin-right: 0px;
+ text-align: center;
+ font-size:20px;
+}
+.mulbtn{
+ width: 55px;
+ height: 55px;
+ margin-bottom: 10px;
+ margin-right: 0px;
+ text-align: center;
+ font-size:20px;
+}
+.dvdbtn{
+ width: 55px;
+ height: 55px;
+ margin-bottom: 10px;
+ margin-right: 0px;
+ text-align: center;
+ font-size:20px;
+}
+.eqlbtn{
+ width: 55px;
+ height: 55px;
+ margin-bottom: 10px;
+ margin-right: 0px;
+ text-align: center;
+ font-size:20px;
+}
+
+
